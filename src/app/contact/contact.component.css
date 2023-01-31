@@ -1,0 +1,26 @@
+.localize{
+    /* background-image: url("../../assets/download.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; */
+    position: relative;
+    background-color: rgba(2, 2, 105, 0.51);
+    height: 500px;
+
+}
+.localize::after{
+    content:"Localize Global Payments";
+    position: absolute;
+    top: 70%;
+    left: 20%;
+    color: white;
+    width: 40%;
+    font-size: 25px;
+}
+.localize::before{
+    content: "";
+    position: absolute;
+    border: solid orange 2px;
+    width: 15%;
+    top: 90%;
+    left: 25%;
+}
